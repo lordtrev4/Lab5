@@ -2,8 +2,8 @@
 =========================================================
 Name        : lab5_exe_D.html
 Assignment  : Lab 5, Exercise D
-Author(s)   : Mahdi Ansari, William Arthur Philip Louis
-Submission  : May 21, 2030
+Author(s)   : Trevor Nguyen, Zachary Lam
+Submission  : February 14, 2024
 Description : Arrays and functions.
 =========================================================
 -->
@@ -38,9 +38,9 @@ Description : Arrays and functions.
 				margin: 10px;
 				border-collapse: collapse;
 			}
-            tr {
-                text-align: center;
-            }
+			tr {
+				text-align: center;
+			}
 			td {
 				border: 1px solid black;
 				padding: 5px;
@@ -52,10 +52,10 @@ Description : Arrays and functions.
 				font-weight: bold;
 				color: navy;
 				padding: 5px;
-                text-align: left;
+				text-align: left;
 			}
 		</style>
-        <!-- Linking the JavaScript file -->
+		<!-- Linking the JavaScript file -->
 		<script src="matrix.js" lang="JavaScript"></script>
 	</head>
 	<body>
@@ -69,18 +69,18 @@ Description : Arrays and functions.
 				<label>Matrix 2 (rows x cols):</label>
 				<input type="number" id="matrix2Rows" min="1" max="9" value="3" />
 				<input type="number" id="matrix2Cols" min="1" max="9" value="4" />
-                <br />
+				<br />
 				<br />
 				<button onclick="generateMatrices()">Generate Matrices</button>
 			</div>
 			<div id="matrix1"></div>
 			<div id="matrix2"></div>
-            <div id="matrix3"><!--Show the result matrix here--></div>
+			<div id="matrix3"><!--Show the result matrix here--></div>
 		</div>
 		<footer>
 			<button onclick="performOperation('add')">Add</button>
 			<button onclick="performOperation('subtract')">Minus</button>
 			<button onclick="performOperation('multiply')">Multiply</button>
-		</footer>		
+		</footer>
 	</body>
 </html>
